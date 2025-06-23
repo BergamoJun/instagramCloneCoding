@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Feed from './pages/Feed';
-import PostDetail from './pages/PostDetail';
-import NotFound from './pages/NotFound';
+import Feed from './pages/Feed.jsx';
+import PostDetail from './pages/PostDetail.jsx';
+import NotFound from './pages/NotFound.jsx';
 function App() {
   return (
     <BrowserRouter>
